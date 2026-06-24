@@ -1,0 +1,236 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "phone": "9876543210",
+      "email": "user@example.com",
+      "password": "password123",
+      "status": "active",
+      "created_at": "2026-06-12T16:42:35.207Z"
+    }
+  ],
+  "admin": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "password123"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "ChatGPT Prompts"
+    },
+    {
+      "id": 2,
+      "name": "Resume Templates"
+    },
+    {
+      "id": 3,
+      "name": "Exam Notes"
+    },
+    {
+      "id": 4,
+      "name": "Canva Designs"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "category_id": 1,
+      "title": "ChatGPT Mega Prompt Pack (10,000+ Master Prompts)",
+      "mrp": 999,
+      "price": 299,
+      "description": "Supercharge your business, writing, coding, and marketing with our masterfully compiled, 100% tested prompts folder directory. Instantly boost your productivity by 10x.",
+      "file": "chatgpt_mega_pack.zip",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=600&q=80",
+      "status": "active",
+      "created_at": "2026-06-08T16:42:35.207Z",
+      "preview_url": "https://chatgpt.com"
+    },
+    {
+      "id": 2,
+      "category_id": 2,
+      "title": "Premium ATS-Friendly Resume Template",
+      "mrp": 499,
+      "price": 99,
+      "description": "Get hired faster with this minimalist, professionally formatted template optimized for resume screening algorithms. Comes in fully editable DOCX and PDF formats.",
+      "file": "resume_ats_premium.zip",
+      "image": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=600&q=80",
+      "status": "active",
+      "created_at": "2026-06-10T16:42:35.207Z",
+      "preview_url": "https://google.com"
+    },
+    {
+      "id": 3,
+      "category_id": 3,
+      "title": "IIT-JEE Physics Ultimate Quick Revision Formula Sheets",
+      "mrp": 299,
+      "price": 0,
+      "description": "Compiled list of critical formulae, key theories, and solved diagrammatic examples for rapid JEE Main & Advanced revision. Authored by top IITian mentors.",
+      "file": "jeep_physics_ref.pdf",
+      "image": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=600&q=80",
+      "status": "active",
+      "created_at": "2026-06-12T16:42:35.207Z",
+      "preview_url": ""
+    },
+    {
+      "id": 4,
+      "category_id": 4,
+      "title": "150+ Ready-To-Host Instagram Carousel Templates (Canva Link Included)",
+      "mrp": 1499,
+      "price": 499,
+      "description": "A gorgeous collection of grid layouts, gradient backdrops, and modern typography carousels. Stop wasting time figuring out design coordinates.",
+      "file": "canva_bundle_insta.zip",
+      "image": "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=600&q=80",
+      "status": "active",
+      "created_at": "2026-06-12T16:42:35.207Z",
+      "preview_url": "https://canva.com"
+    }
+  ],
+  "orders": [],
+  "coupons": [
+    {
+      "id": 1,
+      "code": "SAVE50",
+      "discount": 50,
+      "expiry": "2030-12-31",
+      "usage_limit": 100,
+      "used_count": 5
+    },
+    {
+      "id": 2,
+      "code": "FREE100",
+      "discount": 100,
+      "expiry": "2030-12-31",
+      "usage_limit": 10,
+      "used_count": 0
+    }
+  ],
+  "settings": {
+    "id": 1,
+    "app_name": "DigitalMohan",
+    "razorpay_key": "rzp_test_S5bDUB1XnvePGT",
+    "razorpay_secret": "wksVp8etGWelSTTrCzN3VMd2",
+    "support_email": "support@digitalmohan.com",
+    "support_phone": "+91 98765 43210",
+    "theme_color": "#0284C7",
+    "maintenance_mode": 0,
+    "viral_popup_enabled": 1,
+    "viral_popup_title": "Growth Marketing Secrets",
+    "viral_popup_mrp": 999,
+    "viral_popup_description": "Free Premium Ebook unlock karne ke liye ye link WhatsApp par share karein.",
+    "whatsapp_group_enabled": 1,
+    "whatsapp_group_title": "Join Our Premium WhatsApp Community! 🚀",
+    "whatsapp_group_link": "https://chat.whatsapp.com/GjMockGrpLnk2026Sellora",
+    "whatsapp_group_description": "Get instant high-quality templates, free resume tools, and direct support updates daily. Join 10,000+ members!",
+    "whatsapp_group_delay": 5000,
+    "whatsapp_group_autoclose": 10000
+  },
+  "wishlist": [],
+  "reviews": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "product_id": 1,
+      "rating": 5,
+      "comment": "Absolutely marvelous file structure! Instantly replaced my tedious prompts.",
+      "created_at": "2026-06-12T16:42:35.207Z"
+    }
+  ],
+  "download_logs": [],
+  "notifications": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "title": "Welcome to DigitalMohan!",
+      "message": "Explore and purchase top-tier templates and revision files instantly.",
+      "is_read": 0,
+      "created_at": "2026-06-12T16:42:35.207Z"
+    }
+  ],
+  "recently_viewed": [
+    {
+      "id": 8,
+      "user_id": 2,
+      "product_id": 4,
+      "viewed_at": "2026-06-17T11:34:02.768Z"
+    },
+    {
+      "id": 7,
+      "user_id": 2,
+      "product_id": 2,
+      "viewed_at": "2026-06-17T11:33:54.608Z"
+    },
+    {
+      "id": 6,
+      "user_id": 2,
+      "product_id": 3,
+      "viewed_at": "2026-06-17T11:33:37.359Z"
+    },
+    {
+      "id": 5,
+      "user_id": 2,
+      "product_id": 1,
+      "viewed_at": "2026-06-17T10:54:35.773Z"
+    }
+  ],
+  "queries": [],
+  "subscribers": [],
+  "campaigns": [],
+  "sent_emails": [],
+  "banners": [
+    {
+      "id": 1,
+      "badge": "HOT SALE",
+      "title": "All Prompt Packs of Chat GPT",
+      "subtitle": "Boost production by 10x instantly. 100% Tested copy-paste directories.",
+      "link_url": "products.php?cat=1",
+      "bg_gradient": "from-indigo-900 to-sky-900"
+    },
+    {
+      "id": 2,
+      "badge": "NEW RELEASE",
+      "title": "ATS-Friendly Resumes",
+      "subtitle": "Pass screening tests. Recruiter-approved formatting sheets.",
+      "link_url": "products.php?cat=2",
+      "bg_gradient": "from-emerald-950 to-teal-850"
+    }
+  ],
+  "blogs": [
+    {
+      "id": 1,
+      "title": "The Ultimate Guide to Crafting ATS-Friendly Resumes in 2026",
+      "summary": "Learn the exact resume layouts, font choices, keyword structures, and scanning algorithms that top recruiters use to filter applications today.",
+      "content": "Most job applications are analyzed by Applicant Tracking Systems (ATS) before ever reaching human eyes. To pass these automated gates, you must optimize your resume carefully:\n\n1. **Use Standard Sans-Serif Fonts**: Stick to highly legible, standard fonts such as Inter, Arial, or Calibri. Avoid complex cursive or decorative lettering.\n2. **Clean Layout Structure**: Bullet points are your absolute templates for successes. Avoid placing crucial information inside multi-column visual sidebars or complex grid systems that struggle to parse.\n3. **Integrate Relevant Keywords**: Tailor your resume summary and experience lines to match the high-match parsing rates of target JD lists.\n\nOur professionally formatted premium templates solve this out-of-the-box by keeping typography airy and screening-friendly.",
+      "author": "Mohan Mahali",
+      "image": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&q=80",
+      "category": "Careers",
+      "read_time": "4 min read",
+      "created_at": "2026-06-15T08:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "title": "How to Leverage ChatGPT Prompts to Multitask & Earn $100/hr",
+      "summary": "Discover the secret of engineered directories, context stacking, role-playing, and chain-of-thought prompt triggers to automate 10x of your desk workload.",
+      "content": "Prompt engineering is one of the highest leverage modern skills. Instead of simple search-like queries, you should structure parameters to unlock pristine, accurate generative output:\n\n- **Stack Detailed Context**: Give ChatGPT a clear back-story role (e.g., 'You are a veteran copywriter...').\n- **Specify Precise Output Schema**: Tell the model exactly how to format the responses (such as JSON, Markdown, or clean summaries).\n- **Implement Few-Shot Examples**: Showing 2 or 3 benchmark examples helps the model align style perfectly.\n\nUsing our compilation of 10,000+ copy-paste prompts folder saves massive trial and error time and lets you handle 10x more projects with absolute ease.",
+      "author": "Mohan Mahali",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=800&q=80",
+      "category": "AI",
+      "read_time": "6 min read",
+      "created_at": "2026-06-16T10:30:00.000Z"
+    },
+    {
+      "id": 3,
+      "title": "5 Study Hacks to Crack IIT-JEE Physics Exams with Ease",
+      "summary": "Cracking competitive exams requires smart compilation of formulas, quick revision diagrams, and structured high-yield diagnostic drills. Here is how to structure your revision cycles.",
+      "content": "Physics is deeply analytical. To excel in national tests, you must move beyond rote memorization into active derivation logic:\n\n- **Formula Sheet Compilation**: Create a unified sheet of all basic equation constants. Do not waste minutes searching. \n- **Step-by-Step Visualization**: Drawing standard free-body diagrams for mechanics or loop directories for electrodynamics fixes half of the physics blockers immediately.\n- **Error Log Database**: List the exact questions where you tripped up and re-solve them after 48 hours.\n\nOur rapid Revision Physics Formula compilation Sheets, designed by IITian mentors, keep you 100% test-ready without losing track of details.",
+      "author": "Mohan Mahali",
+      "image": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&q=80",
+      "category": "Education",
+      "read_time": "5 min read",
+      "created_at": "2026-06-14T09:15:00.000Z"
+    }
+  ]
+}

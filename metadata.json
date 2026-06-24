@@ -1,0 +1,6 @@
+{
+  "name": "DigitalMohan",
+  "description": "Premium mobile-first PWA for downloading and purchasing high-quality digital products.",
+  "requestFramePermissions": ["vibrate"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    
+    # Rewrite any requests to /api/ paths to the api.php router script
+    RewriteCond %{REQUEST_URI} /api/ [NC]
+    RewriteRule ^api/(.*)$ api.php [QSA,L]
+</IfModule>
